@@ -2,7 +2,7 @@ import React from 'react';
 import './style.scss';
 
 const postContent = ({ data }) => (
-  <div>
+  <div className="Content-Container">
     <p>
       {data.description}
     </p>
